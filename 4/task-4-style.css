@@ -1,0 +1,186 @@
+
+html, body {
+    margin: 0;
+}
+
+div, h1, h2, h3, h4, p, img, a, i, ul, li, th, td {
+    margin: 0;
+    border: 0;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.warp {
+    background-color: #29bde0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    background-color: #29bde0;
+    color: white;
+    border-bottom: 1px solid #74d4eb;
+    position: relative;
+    text-align: center;
+    padding: 4% 0;
+}
+
+.header h1 {
+    font-size: 2.125em;
+}
+
+.home {
+    width: 8%;
+    position: absolute;
+    left: 3%;
+    top: 20%;
+}
+
+.help {
+    width: 7%;
+    position: absolute;
+    right: 3%;
+    top: 20%;
+}
+
+.cup {
+    width: 54%;
+    padding-top: 31%;
+    margin: 0 auto;
+    position: relative;
+    background: url("images/fuck_11.png") no-repeat;
+    background-size: 100% 100%;
+    top: 30px;
+}
+
+.cup h1 {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    font-size: 3.004375em;
+    color: #ffffff;
+    text-align: center;
+}
+
+/*@media screen and (max-width: 634px) {*/
+/*.cup h1 {*/
+/*font-size: 24px;*/
+/*}*/
+/*}*/
+.contact {
+    border-bottom: 1px solid #31a8c4;
+    padding-bottom: 2.5%;
+}
+
+.explain p {
+    width: 75.31%;
+    font-size: 2.0625em;
+    color: #ffc865;
+    padding-left: 13%;
+    padding-top: 10%;
+}
+
+.result {
+    width: 75.31%;
+    color: white;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+.result p {
+    width: 100%;
+    font-size: 1.625em;
+}
+
+.result ul {
+    width: 100%;
+    float: left;
+}
+
+.result li {
+    width: 33%;
+    float: left;
+    font-size: 1.625em;
+    display: block;
+}
+
+.data {
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    /*margin: 0 auto;*/
+    width: 100%;
+    position: relative;
+}
+
+.data h4 {
+    font-size: 1.875em;
+    color: #515151;
+    padding: 2.1875% 12.03125%;
+}
+
+.data p {
+    font-size: 1.625em;
+    color: #c7c7c7;
+    padding: 0.8125% 12.03125%;
+}
+
+.data span {
+    color: #a6a6a6;
+    display: block;
+    font-size: 1.25em;
+    position: absolute;
+    right: 16.1%;
+    top: 3.59375%;
+}
+
+.footer {
+    background-color: rgba(153, 223, 240, 0.7);
+    padding: 6.28125% 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.again {
+    background-color: #ff6666;
+    border-radius: 10%;
+    float: left;
+}
+
+.share {
+    background-color: #ffcc33;
+    border-radius: 10%;
+    float: right;
+}
+
+.footer span {
+    text-align: center;
+    width: 41.2%;
+    font-size: 2.5em;
+    padding: 2.125%;
+    margin: -20px 2%;
+}
+
+@media screen and (max-width: 640px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+

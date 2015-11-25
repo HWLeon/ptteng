@@ -1,0 +1,156 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img,ul {
+    border: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    float: left;
+    display: block;
+}
+.wrap{
+    width: 100%;
+    max-width: 640px;
+    background-color: #29bde0;
+    margin: 0 auto  ;
+}
+.header{
+    background-color: #29bde0;
+    position: relative;
+}
+.set{
+    max-width: 6.40625%;
+    position: absolute;
+    left: 3.59375%;
+    top: 43%;
+}
+.close{
+    max-width: 5.9375%;
+    position: absolute;
+    right: 3.59375%;
+    top: 46%;
+}
+.header h1{
+    text-align: center;
+    font-size: 2.125em;
+    color: #ffffff;
+    padding-top: 7.1875%;
+    padding-bottom: 2.8125%;
+
+}
+.content{
+    background-color: #b9e9f5;
+    position: relative;
+}
+.content p{
+    font-size: 1.625em;
+    color: #505556;
+    text-indent: 7.34375%;
+    padding: 4.6875% 0;
+}
+.player{
+    width: 8.28125%;
+    background-color: #b9e9f5;
+    position: absolute;
+    right: 2.65625%;
+    top: 21%;
+}
+.contact{
+    background-color: #29bde0;
+    position: relative;
+}
+.triangle{
+    width: 2.1875%;
+    position: absolute;
+    left: 11.25%;
+}
+.contact p{
+    font-size: 1.5em;
+    color: #ffffff;
+    text-indent: 10.9375%;
+    padding: 3.75% 0 6.25%;
+}
+.main{
+    text-align: center;
+    position: relative;
+}
+.cat{
+    width: 20.5625%;
+    float: left;
+    margin-left: 7.25%;
+    margin-right: 4.6875%;
+}
+.cat h1{
+    font-size: 1.875em;
+    color: #565656;
+    padding: 31.25% 2.5% 25.15625%;/*？*/
+    background-color: #f5c97b;
+    border: 5px solid #ffffff;
+    border-bottom: none;
+}
+.cat p{
+    font-size: 1.4225em;
+    color: #ffffff;
+    background-color: #83b09a;
+    padding: 0.625%;
+    border: 5px solid #ffffff;
+    border-top: none;
+}
+.cat ul {
+    width: 150px;
+    padding: 22px 0;
+    height: 30px;
+}
+.cat li{
+    height: 30px;
+    margin-right: 2.5%;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li i{
+    position: relative;
+    /*-webkit-transform:scale(1);*/
+    width: 30px;
+    height: 30px;
+    display: block;
+    float: left;
+    background: url("images/sp.png") no-repeat;
+}
+.cat-1 i{background-position: 0 0;}
+.cat-2 i{background-position: 0 -39px;}
+.cat-3 i{background-position: 0 -79px;}
+.cat-4 i{background-position: 0 -120px;}
+.clear{
+    clear: both;
+}
+.footer{
+    width: 640px;/*这个值试出来的*/
+    background-color: #29bde0;
+    position: fixed;
+    bottom: 0;
+    padding: 2.6875% 0;
+}
+.footer span{
+    background-color: #fbb435;
+    color: #ffffff;
+    font-size: 2.5em;
+    padding: 4.21875% 32.03125%;
+    display: inline-block;
+}
+@media screen and (max-width: 640px){
+    .footer{
+        width: 100%;
+    }
+}

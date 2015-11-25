@@ -1,0 +1,174 @@
+body {
+    border: 0;
+    margin: 0;
+}
+
+div, h1, h2, h3, h4, p, img, a, i, ul, li, th, td {
+    margin: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#wrap {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #29bde0;
+    position: relative;
+}
+
+#nav {
+    width: 77.34372%;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+#nav li {
+    color: #29bde0;
+    font-size: 3em;
+    padding: 4% 0 4% 0;
+    border-bottom: 1px solid #d6d6d6;
+    text-indent: 3em;
+}
+
+.right {
+    width: 3.90625%;
+    float: right;
+    margin-right: 7.5%;
+}
+
+.left {
+    width: 6.5625%;
+    float: left;
+    margin-left: 5.46875%;
+}
+
+#main {
+    width: 100%;
+    background-color: #f0f0f0;
+    position: relative;
+    padding-bottom: 3.4375%;
+    overflow: hidden;/*内容会被修剪，并且其余内容是不可见的。css2*/
+    transition: .5s ease-in-out; /*过渡效果css3*/
+}
+
+.header {
+    padding: 6.06% 0 3.28125% 3.59375%;
+    background: #29bde0;
+}
+
+.header img {
+    width: 5.78125%;
+}
+
+.header label {
+    cursor: pointer;
+}
+
+#header {
+    display: none;
+}
+
+#header:checked ~ #main {
+    transform: translateX(77.34372%);
+}
+
+.content {
+    width: 89.0625%;
+    padding: 4.21875% 5.625% 9.84375%;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.next {
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+    position: relative;
+}
+
+.next p {
+    /*width: 55.9375%;*/
+    font-size: 2.1775em;
+    padding: 6.875% 17.1875%;
+    color: #9a9a9a;
+    margin: 0 auto;
+}
+
+.previous {
+    width: 4.375%;
+    position: absolute;
+    top: 29.9375%;
+    right: 2.1875%;
+}
+.footer{
+    margin-top: 4.0625%;
+    border: 1px solid #c9c9c9;
+    position: relative;
+}
+.game{
+    background-color: #ffffff;
+    border-bottom: 2px solid #fbb435;
+}
+.game p{
+    font-size: 2.35875em;
+    padding: 4.84375% 32.5%;
+    color: #fbb435;
+    margin: 0 auto;
+}
+.column{
+    padding: 4.84375% 8.28125% 0;
+    background-color: #ffffff;
+}
+.column h1{
+    font-size: 2.005em;
+    padding: 8.4375% 29.0625%;
+    color: #ffffff;
+    background-color: #69d1e9;
+}
+.column p{
+    font-size: 1.533125em;
+    padding: 4.375% 20% 0;
+}
+.indicate{
+    width: 4.375%;
+    position: absolute;
+    right: 1.40625%;
+    top: 52%;
+}
+.log{
+    padding: 2.1875% 37.5% ;
+    background-color: #ffffff;
+}
+.log ul{
+    width: 100%;
+    float: left;
+}
+.log li{
+    width: 18.75%;
+    float: left;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
